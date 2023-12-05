@@ -1,2 +1,2 @@
-# rectech-js
+# rectech.js
 
