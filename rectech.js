@@ -76,7 +76,7 @@ const Nota = mongoose.model("Nota", NotaSchema)
 
 
 
-app.post("/cadastroNota", async(req,res)=>{
+app.post("/cadastronota", async(req,res)=>{
     const numero = req.body.numero
     const dataemissao = req.body.dataemissao
     const item = req.body.item
@@ -117,8 +117,8 @@ app.get("/cadastrousuario", async(req, res)=>{
     res.sendFile(__dirname +"/cadastrousuario.html");
 })
 
-app.get("/cadastroNota", async(req, res)=>{
-    res.sendFile(__dirname +"/cadastroNota.html");
+app.get("/cadastronota", async(req, res)=>{
+    res.sendFile(__dirname +"/cadastronota.html");
 })
 
 
